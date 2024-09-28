@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+:root{
+    font-family: sans-serif;
+    background-color: #4C35E0;
+    line-height: 2em;
+}
+
+.judul{
+    text-align: center;
+    margin-top:10rem;
+    color: #fff;
+}
+
+.judul h3{
+    color:#AB98E5;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    margin-top:10rem;
+}
+
+/* card tengah*/
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width:350px;
+    height:30rem;
+    border-radius: 2%;
+    margin-left: 4rem;
+    margin-top:-50px;
+}
+
+.pony{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:250px;
+    height:3rem;
+    background-color: #FFF5D4;
+}
+
+.pony p{
+    display: inline-block;
+    color:#5538CB;
+    font-weight: bold;
+}
+
+.isi .emoji{
+    font-size: 3rem;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left:4.5rem;
+}
+
+.isi .jenis{
+    color:#E7C66E;
+    font-size: 3rem;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+}
+
+.isi .hargaPaket{
+    margin-left:4rem;
+    margin-top:2rem;
+}
+
+.isi .dolar{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#5E49C8;
+}
+
+.isi .harga{
+    font-weight: bold;
+    font-size: 3rem;
+    color:#4C37DD;
+}
+
+.isi .paket{
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color:#A9A9A9;
+}
+
+.btn{
+    background-color: #4C35E0;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem;
+    height: 3rem;
+}
+
+/* card pertama */
+
+.card{
+    background-color: #ffffff;
+    width:350px;
+    height:28rem;
+    border-radius: 2%;
+    margin-top:-20px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .isi .emoji{
+    margin-top: 3rem;
+    margin-bottom: 1.7rem;
+    margin-left:3.5rem;
+}
+
+.card .isi .hargaPaket{
+    margin-left:3rem;
+    margin-top:1.7rem;
+}
+
+.isi .paket{
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color:#A9A9A9;
+}
+
+.card .btn{
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem;
+    height: 3rem;
+}
+
+.card .btn a{
+    color:#4C35E0;
+}
+
+/* card ujung kanan */
+
+.card-2{
+    background-color: #ffffff;
+    width:350px;
+    height:28rem;
+    border-radius: 2%;
+    margin-top:-20px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.card-2 .isi .emoji{
+    margin-top: 3.5rem;
+    margin-bottom: 1.7rem;
+    margin-left:3rem;
+}
+
+.card-2 .isi .hargaPaket{
+    margin-left:2rem;
+    margin-top:1.7rem;
+}
+
+.isi-2 .paket{
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color:#A9A9A9;
+}
+
+.card-2 .btn{
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem;
+    height: 3rem;
+}
+
+.card-2 .btn a{
+    color:#4C35E0;
+}
+
+@media screen and (min-width:320px) and (max-width:769px) {
+    .judul{
+        margin-left:2rem;
+        font-size: 1rem;
+    }
+    .content{
+        flex-direction: column;
+        margin-right:4rem;
+    }
+    .card-1{
+        order:-1;
+    }
+    .card{
+        margin:1rem 0 2.5rem 4rem;
+    }
+}
